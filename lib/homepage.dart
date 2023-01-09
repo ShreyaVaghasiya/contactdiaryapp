@@ -63,19 +63,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-            Container(
-              margin: EdgeInsets.all(10),
-              child: GestureDetector(
-                onTap: () {
-                  setState(() {});
-                },
-                child: Icon(
-                  Icons.menu,
-                  size: 30,
-                  color: (Globals.isTheme) ? Colors.black : Colors.white,
-                ),
-              ),
-            ),
+
           ],
           title: Text("Contacts",
               style: GoogleFonts.lato(
