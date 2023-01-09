@@ -124,7 +124,7 @@ class _HomeState extends State<Home> {
                         "${Globals.contacts[i]['firstname']} ${Globals.contacts[i]['lastname']}",
                         style: GoogleFonts.ibmPlexMono(
                             textStyle: TextStyle(
-                          fontSize: 20,
+                          fontSize: 15,
                           fontWeight: FontWeight.bold,
                           color:
                               (Globals.isTheme) ? Colors.black87 : Colors.white,
@@ -175,7 +175,7 @@ class _HomeState extends State<Home> {
                     (Globals.isTheme) ? Colors.black26 : Colors.black54,
                 shape: const RoundedRectangleBorder(
                     borderRadius: BorderRadius.vertical(
-                  top: Radius.circular(20),
+                  top: Radius.circular(15),
                 )),
                 context: context,
                 builder: (context) {
@@ -223,7 +223,7 @@ class _DemoState extends State<Demo> {
     };
     return DraggableScrollableSheet(
         initialChildSize: 0.85,
-        // expand: false,
+        expand: false,
         builder: (_, controller) {
           return SingleChildScrollView(
             child: Column(
@@ -306,7 +306,7 @@ class _DemoState extends State<Demo> {
                       child: Text("       First Name",
                           style: GoogleFonts.lato(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: (Globals.isTheme)
                                   ? Colors.white
@@ -315,7 +315,7 @@ class _DemoState extends State<Demo> {
                           )),
                     ),
                     Container(
-                      margin: EdgeInsets.all(20),
+                      margin: EdgeInsets.all(15),
                       child: Container(
                         height: 50,
                         width: 400,
@@ -327,7 +327,7 @@ class _DemoState extends State<Demo> {
                         child: TextFormField(
                           style: GoogleFonts.lato(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: (Globals.isTheme)
                                   ? Colors.black
@@ -354,7 +354,7 @@ class _DemoState extends State<Demo> {
                       child: Text("       Last Name",
                           style: GoogleFonts.lato(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: (Globals.isTheme)
                                   ? Colors.white
@@ -363,7 +363,7 @@ class _DemoState extends State<Demo> {
                           )),
                     ),
                     Container(
-                      margin: EdgeInsets.all(20),
+                      margin: EdgeInsets.all(15),
                       child: Container(
                         height: 50,
                         width: 400,
@@ -375,7 +375,7 @@ class _DemoState extends State<Demo> {
                         child: TextFormField(
                           style: GoogleFonts.lato(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: (Globals.isTheme)
                                   ? Colors.black
@@ -401,7 +401,7 @@ class _DemoState extends State<Demo> {
                       child: Text("       Phone Number",
                           style: GoogleFonts.lato(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: (Globals.isTheme)
                                   ? Colors.white
@@ -410,7 +410,7 @@ class _DemoState extends State<Demo> {
                           )),
                     ),
                     Container(
-                      margin: EdgeInsets.all(20),
+                      margin: EdgeInsets.all(15),
                       child: Container(
                         height: 50,
                         width: 400,
@@ -422,7 +422,7 @@ class _DemoState extends State<Demo> {
                         child: TextFormField(
                           style: GoogleFonts.lato(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: (Globals.isTheme)
                                   ? Colors.black
@@ -448,7 +448,7 @@ class _DemoState extends State<Demo> {
                       child: Text("       Email",
                           style: GoogleFonts.lato(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: (Globals.isTheme)
                                   ? Colors.white
@@ -457,7 +457,7 @@ class _DemoState extends State<Demo> {
                           )),
                     ),
                     Container(
-                      margin: EdgeInsets.all(20),
+                      margin: EdgeInsets.all(15),
                       child: Container(
                         height: 50,
                         width: 400,
@@ -469,7 +469,7 @@ class _DemoState extends State<Demo> {
                         child: TextFormField(
                           style: GoogleFonts.lato(
                             textStyle: TextStyle(
-                              fontSize: 20,
+                              fontSize: 15,
                               fontWeight: FontWeight.bold,
                               color: (Globals.isTheme)
                                   ? Colors.black
